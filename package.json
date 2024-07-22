@@ -1,0 +1,20 @@
+{
+	"name": "secure-password",
+	"version": "1.0.0",
+	"main": "./dist/Server.js",
+	"scripts": {
+		"start": "nodemon ./dist/Server.js",
+		"ts": "npx tsc -w"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4",
+		"typescript": "^5.5.3"
+	}
+}
